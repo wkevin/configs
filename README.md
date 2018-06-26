@@ -7,4 +7,9 @@
     * 相比其他同类浏览器插件，gooreplacer更加灵活、可修改性更强。
     * gooreplacer也是ff、chrome多浏览器都有的扩展。
 * 使用方法
-    * Import -- `https://raw.githubusercontent.com/wkevin/configs/master/gooreplacer/gooreplacer.gson`
+    1. Online-rules
+    2. Edit
+    3. `https://raw.githubusercontent.com/wkevin/configs/master/gooreplacer/gooreplacer.gson`
+    4. OK
+    5. Update Now
+    6. View
