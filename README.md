@@ -2,4 +2,4 @@
 
 ## [gooreplacer](https://github.com/jiacai2050/gooreplacer)
 
-* Export -- 
+* Export -- `https://raw.githubusercontent.com/wkevin/configs/master/gooreplacer/gooreplacer.gson`
