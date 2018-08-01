@@ -62,6 +62,12 @@
       "kind": "wildcard",
       "dst": "https://cdn.staticfile.org/analytics.js/2.9.1/analytics.js",
       "enable": true
+    },
+    {
+      "src": "cdnjs.cloudflare.com/ajax/libs/mathjax/",
+      "kind": "wildcard",
+      "dst": "cdn.bootcss.com/mathjax/",
+      "enable": true
     }
   ],
   "cancel-rules": [],
