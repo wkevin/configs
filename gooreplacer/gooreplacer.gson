@@ -70,9 +70,9 @@
       "enable": true
     },
     {
-      "src": "www.google.com/s2/favicons(.*)&alt=feed",
+      "src": "www.google.com/s2/favicons\?domain=(.*)(&alt=feed)",
       "kind": "regexp",
-      "dst": "statics.dnspod.cn/proxy_favicon/_/favicon$1",
+      "dst": "www.baidu.com/favicon.ico",
       "enable": true
     }
   ],
