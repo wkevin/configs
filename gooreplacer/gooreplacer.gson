@@ -72,7 +72,13 @@
     {
       "src": "www.google.com/s2/favicons\\?domain=(.*)(&alt=feed)",
       "kind": "regexp",
-      "dst": "www.baidu.com/favicon.ico",
+      "dst": "favicon.byi.pw/?spm=0.0.0.0.ymkZtG&url=$1",
+      "enable": true
+    },
+    {
+      "src": "twitter.com/favicon.ico",
+      "kind": "wildcard",
+      "dst": "favicon.byi.pw/?spm=0.0.0.0.ymkZtG&url=twitter.com",
       "enable": true
     }
   ],
