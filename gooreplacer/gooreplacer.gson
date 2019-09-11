@@ -70,9 +70,9 @@
       "enable": true
     },
     {
-      "src": "www.google.com/s2/favicons?",
-      "kind": "wildcard",
-      "dst": "statics.dnspod.cn/proxy_favicon/_/favicon?",
+      "src": "www.google.com/s2/favicons(.*)&alt=feed",
+      "kind": "regexp",
+      "dst": "statics.dnspod.cn/proxy_favicon/_/favicon$1",
       "enable": true
     }
   ],
