@@ -70,7 +70,7 @@
       "enable": true
     },
     {
-      "src": "www.google.com/s2/favicons\?domain=(.*)(&alt=feed)",
+      "src": "www.google.com/s2/favicons\\?domain=(.*)(&alt=feed)",
       "kind": "regexp",
       "dst": "www.baidu.com/favicon.ico",
       "enable": true
