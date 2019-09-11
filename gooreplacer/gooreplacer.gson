@@ -68,6 +68,12 @@
       "kind": "wildcard",
       "dst": "cdn.bootcss.com/mathjax/",
       "enable": true
+    },
+    {
+      "src": "www.google.com/s2/favicons?",
+      "kind": "wildcard",
+      "dst": "statics.dnspod.cn/proxy_favicon/_/favicon?",
+      "enable": true
     }
   ],
   "cancel-rules": [],
