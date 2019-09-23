@@ -70,15 +70,15 @@
       "enable": true
     },
     {
-      "src": "www.google.com/s2/favicons\\?domain=(.*)(&alt=feed)",
+      "src": "www.google.com/s2/favicons\\?domain=(.*)\\?.*&alt=feed",
       "kind": "regexp",
-      "dst": "api.byi.pw/favicon?url=$1",
+      "dst": "statics.dnspod.cn/proxy_favicon/_/favicon?domain=$1",
       "enable": true
     },
     {
       "src": "twitter.com/favicon.ico",
       "kind": "wildcard",
-      "dst": "api.byi.pw/favicon?url=twitter.com",
+      "dst": "statics.dnspod.cn/proxy_favicon/_/favicon?domain=twitter.com",
       "enable": true
     }
   ],
