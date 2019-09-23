@@ -70,17 +70,24 @@
       "enable": true
     },
     {
-      "src": "www.google.com/s2/favicons\\?domain=(.*)\\?*.*&alt=feed",
+      "src": "twitter.com/favicon.ico",
+      "kind": "wildcard",
+      "dst": "statics.dnspod.cn/proxy_favicon/_/favicon?domain=twitter.com",
+      "enable": true
+    },
+    {
+      "src": "www.google.com/s2/favicons\\?domain=(.*).sg.*&alt=feed",
       "kind": "regexp",
       "dst": "statics.dnspod.cn/proxy_favicon/_/favicon?domain=$1",
       "enable": true
     },
     {
-      "src": "twitter.com/favicon.ico",
-      "kind": "wildcard",
-      "dst": "statics.dnspod.cn/proxy_favicon/_/favicon?domain=twitter.com",
+      "src": "www.google.com/s2/favicons\\?domain=([^?]*).*&alt=feed",
+      "kind": "regexp",
+      "dst": "statics.dnspod.cn/proxy_favicon/_/favicon?domain=$1",
       "enable": true
-    }
+    },
+  ],
   ],
   "cancel-rules": [],
   "request-headers": [],
