@@ -86,8 +86,7 @@
       "kind": "regexp",
       "dst": "statics.dnspod.cn/proxy_favicon/_/favicon?domain=$1",
       "enable": true
-    },
-  ],
+    }
   ],
   "cancel-rules": [],
   "request-headers": [],
